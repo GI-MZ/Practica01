@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\gisse\\OneDrive\\Documentos\\2do cuatri\\programacion II\\Practica01\\Practica01\\",
+  "WorkspaceRootPath": "C:\\Users\\gisse\\Programacion II\\Practica01\\Practica01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\onedrive\\documentos\\2do cuatri\\programacion ii\\practica01\\practica01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\practica01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gisse\\OneDrive\\Documentos\\2do cuatri\\programacion II\\Practica01\\Practica01\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Practica01\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\gisse\\OneDrive\\Documentos\\2do cuatri\\programacion II\\Practica01\\Practica01\\Program.cs",
+              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Practica01\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T18:10:23.649Z",
               "EditorCaption": ""
