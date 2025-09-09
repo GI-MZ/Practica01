@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\gisse\\Programacion II\\Practica01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\helpers\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\helpers\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\implementations\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\implementations\\facturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\domain\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:domain\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\domain\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:domain\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\domain\\detalllefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:domain\\detalllefactura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\domain\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:domain\\factura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\implementations\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\implementations\\articulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\services\\articuloservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:services\\articuloservicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\interfaces\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\interfaces\\iarticulorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:services\\facturaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\interfaces\\ifacturarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\domain\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:domain\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\domain\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:domain\\formapago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\helpers\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\helpers\\datahelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\data\\helpers\\spparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:data\\helpers\\spparameter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|c:\\users\\gisse\\programacion ii\\practica01\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A8907B1-670B-4AF6-BC0C-D4BD74792746}|Practica01.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +62,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticuloServicio.cs",
+              "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Services\\ArticuloServicio.cs",
+              "RelativeDocumentMoniker": "Services\\ArticuloServicio.cs",
+              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Services\\ArticuloServicio.cs",
+              "RelativeToolTip": "Services\\ArticuloServicio.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T15:49:34.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Implementations\\ArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Implementations\\ArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Implementations\\ArticuloRepository.cs",
+              "RelativeToolTip": "Data\\Implementations\\ArticuloRepository.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv0gAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T15:31:05.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "IArticuloRepository.cs",
+              "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Interfaces\\IArticuloRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Interfaces\\IArticuloRepository.cs",
+              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Interfaces\\IArticuloRepository.cs",
+              "RelativeToolTip": "Data\\Interfaces\\IArticuloRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T15:30:51.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FacturaService.cs",
+              "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Services\\FacturaService.cs",
+              "RelativeDocumentMoniker": "Services\\FacturaService.cs",
+              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Services\\FacturaService.cs",
+              "RelativeToolTip": "Services\\FacturaService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-09T15:12:01.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "SpParameter.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Helpers\\SpParameter.cs",
               "RelativeDocumentMoniker": "Data\\Helpers\\SpParameter.cs",
@@ -58,38 +126,37 @@
               "RelativeToolTip": "Data\\Helpers\\SpParameter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-08T00:06:08.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-08T00:06:08.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "DataHelper.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Helpers\\DataHelper.cs",
               "RelativeDocumentMoniker": "Data\\Helpers\\DataHelper.cs",
               "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Helpers\\DataHelper.cs",
               "RelativeToolTip": "Data\\Helpers\\DataHelper.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAAAowFkAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAH0AAAAAAAAAAAApwIoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T23:35:52.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FacturaRepository.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Implementations\\FacturaRepository.cs",
               "RelativeDocumentMoniker": "Data\\Implementations\\FacturaRepository.cs",
               "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Implementations\\FacturaRepository.cs",
               "RelativeToolTip": "Data\\Implementations\\FacturaRepository.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAuwEQAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAlwD0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T23:27:35.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "IFacturaRepository.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Interfaces\\IFacturaRepository.cs",
               "RelativeDocumentMoniker": "Data\\Interfaces\\IFacturaRepository.cs",
@@ -97,12 +164,11 @@
               "RelativeToolTip": "Data\\Interfaces\\IFacturaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:50:18.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T22:50:18.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 11,
               "Title": "FormaPago.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\FormaPago.cs",
               "RelativeDocumentMoniker": "Domain\\FormaPago.cs",
@@ -110,12 +176,11 @@
               "RelativeToolTip": "Domain\\FormaPago.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:48:41.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T22:48:41.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "Articulo.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\Articulo.cs",
               "RelativeDocumentMoniker": "Domain\\Articulo.cs",
@@ -123,46 +188,46 @@
               "RelativeToolTip": "Domain\\Articulo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:48:30.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T22:48:30.41Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "DetallleFactura.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\DetallleFactura.cs",
               "RelativeDocumentMoniker": "Domain\\DetallleFactura.cs",
               "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\DetallleFactura.cs",
               "RelativeToolTip": "Domain\\DetallleFactura.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T22:48:17.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Factura.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\Factura.cs",
               "RelativeDocumentMoniker": "Domain\\Factura.cs",
-              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\Factura.cs*",
-              "RelativeToolTip": "Domain\\Factura.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwBUAAAACAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Domain\\Factura.cs",
+              "RelativeToolTip": "Domain\\Factura.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T22:47:56.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\gisse\\Programacion II\\Practica01\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:10:23.649Z"
+              "WhenOpened": "2025-09-07T18:10:23.649Z",
+              "EditorCaption": ""
             }
           ]
         }

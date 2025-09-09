@@ -97,10 +97,19 @@ namespace Practica01.Data.Helpers
             SqlTransaction transaction = _connection.BeginTransaction();
             var cmd = new SqlCommand("SP_INSERTAR_MAESTRO", _connection, transaction);
             cmd.CommandType = CommandType.StoredProcedure;
-
+            //param entrada
             cmd.Parameters.AddWithValue("@id_forma_pago", factura.FormaPago.Id);
             cmd.Parameters.AddWithValue("@cliente", factura.Cliente);
+            //param salida
+            SqlParameter paramt = new SqlParameter("@nro_factura", System.Data.SqlDbType.Int);
+            paramt.Direction = System.Data.ParameterDirection.Output;
+            cmd.Parameters.Add(paramt);
+            //cmd.ExecuteNonQuery();
+
+            //factura.Nro = (int)paramt.Value;
             int affectedRows = cmd.ExecuteNonQuery();
+
+
             if (affectedRows <= 0)
             {
                 transaction.Rollback();
@@ -109,7 +118,10 @@ namespace Practica01.Data.Helpers
             else
             {
                 foreach (DetallleFactura df in factura.Detalles)
+
                 {
+                    factura.Nro = (int)paramt.Value;
+                    //int nroFactura = (int)cmd.Parameters["@nro_factura"].Value;
                     SqlCommand cmdDetalle = new SqlCommand("SP_INSERTAR_DETALLE", _connection, transaction);
                     cmdDetalle.CommandType = CommandType.StoredProcedure;
                     //param de entrada
@@ -119,10 +131,10 @@ namespace Practica01.Data.Helpers
                     cmdDetalle.Parameters.AddWithValue("@precio", df.Articulo.PrecioUnitario);
 
                     //param de salida
-                    SqlParameter param = new SqlParameter("@nro_factura", System.Data.SqlDbType.Int);
-                    param.Direction = System.Data.ParameterDirection.Output;
-                    cmd.Parameters.Add(param);
-                    cmd.ExecuteNonQuery();
+                    SqlParameter paramDetalle = new SqlParameter("@id_detalle_factura", System.Data.SqlDbType.Int);
+                    paramDetalle.Direction = System.Data.ParameterDirection.Output;
+                    cmdDetalle.Parameters.Add(paramDetalle);
+                    //cmdDetalle.ExecuteNonQuery();
 
                     int affectedRowsDetalle = cmdDetalle.ExecuteNonQuery();
                     if (affectedRowsDetalle<=0)

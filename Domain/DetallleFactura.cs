@@ -8,7 +8,7 @@ namespace Practica01.Domain
 {
     public class DetallleFactura
     {
-       // public int Id { get; set; }
+        public int Id { get; set; }
         public Articulo Articulo { get; set; }
         public int Cantidad { get; set; }
         public float Precio { get; set; }
