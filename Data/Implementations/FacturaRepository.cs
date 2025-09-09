@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,69 +14,114 @@ namespace Practica01.Data.Implementations
     public class FacturaRepository : IFacturaRepository
     {
         public List<Factura> GetAll()
-        {
-            throw new NotImplementedException();
+        {   
+            List<Factura> lst = new List<Factura>();
+
+            var dt = DataHelper.GetInstance().ExecuteSPQuery("SP_RECUPERAR_FACTURAS");
+            foreach (DataRow row in dt.Rows)
+            {
+                Factura f = new Factura();
+                f.Nro = (int)row["nro_factura"];
+                f.FormaPago = (FormaPago)row["id_forma_pago"];
+                f.Cliente = (string)row["cliente"];
+                lst.Add(f);
+            }
+            return lst;
+
         }
 
         public Factura GetById(int id)
         {
-            throw new NotImplementedException();
+            List<SpParameter> param = new List<SpParameter>()
+            {
+                new SpParameter()
+                {
+                    Nombre="@nro_factura",
+                    Valor = id
+                }
+            };
+
+            var dt = DataHelper.GetInstance().ExecuteSPQuery("SP_RECUPERAR_FACTURAS_POR_NRO", param);
+            if (dt !=null && dt.Rows.Count >0)
+            {
+                Factura f = new Factura()
+                {
+                    Nro = (int)dt.Rows[0]["nro_factura"],
+                    Date = (DateTime)dt.Rows[0]["fecha"],
+                    FormaPago = (FormaPago)dt.Rows[0]["id_forma_pago"],
+                    Cliente = (string)dt.Rows[0]["cliente"]
+
+                };
+                return f;
+            }
+            return null;
         }
 
         public bool Save(Factura factura)
         {
-            bool result = true;
-            SqlTransaction? t = null;
-            SqlConnection ?cnn = null;
-            try
+            List<SpParameter> param = new List<SpParameter>()
             {
-                cnn = DataHelper.GetInstance().GetConnection();
-                cnn.Open();
-                t = cnn.BeginTransaction();
+                new SpParameter("nro_factura", factura.Nro),
+                new SpParameter("fecha", factura.Date),
+                new SpParameter("id_forma_pago", factura.FormaPago.Id),
+                new SpParameter("cliente", factura.Cliente)
+            };
+            return DataHelper.GetInstance().ExecuteSpDml("SP_INSERTAR_MAESTRO", param);
+            //bool result = true;
+            //SqlTransaction? t = null;
+            //SqlConnection ?cnn = null;
+            //try
+            //{
+            //    cnn = DataHelper.GetInstance().GetConnection();
+            //    cnn.Open();
+            //    t = cnn.BeginTransaction();
 
-                var cmd = new SqlCommand("SP_INSERTAR_MAESTRO", cnn, t);
-                cmd.CommandType = System.Data.CommandType.StoredProcedure;
-                //parametros de entrada
-                cmd.Parameters.AddWithValue("@id_forma_pago", factura.FormaPago.Id);
-                cmd.Parameters.AddWithValue("@cliente", factura.Cliente);
-                //parametros de salida
-                SqlParameter param = new SqlParameter("@nro_factura", System.Data.SqlDbType.Int);
-                param.Direction = System.Data.ParameterDirection.Output;
-                cmd.Parameters.Add(param);
-                cmd.ExecuteNonQuery();
+            //    var cmd = new SqlCommand("SP_INSERTAR_MAESTRO", cnn, t);
+            //    cmd.CommandType = System.Data.CommandType.StoredProcedure;
+            //    //parametros de entrada
+            //    cmd.Parameters.AddWithValue("@id_forma_pago", factura.FormaPago.Id);
+            //    cmd.Parameters.AddWithValue("@cliente", factura.Cliente);
+            //    //parametros de salida
+            //    SqlParameter param = new SqlParameter("@nro_factura", System.Data.SqlDbType.Int);
+            //    param.Direction = System.Data.ParameterDirection.Output;
+            //    cmd.Parameters.Add(param);
+            //    cmd.ExecuteNonQuery();
+               
 
-                int FacturaNro = (int)param.Value;
+        //        int FacturaNro = (int)param.Value;
 
-                foreach (var detalle in factura.GetDetalles())
-                {
-                    var cmdDetalle = new SqlCommand("SP_INSERTAR_DETALLE", cnn, t);
-                    cmdDetalle.CommandType = System.Data.CommandType.StoredProcedure;
-                    cmdDetalle.Parameters.AddWithValue("@nro_factura", factura.Nro);
-                    cmdDetalle.Parameters.AddWithValue("@id_articulo", detalle.Articulo.Id);
-                    cmdDetalle.Parameters.AddWithValue("@cantidad", detalle.Cantidad);
-                    cmdDetalle.Parameters.AddWithValue("@precio", detalle.Precio);
-                    cmdDetalle.Parameters.AddWithValue("@nro_factura", factura.Nro);
-                    cmdDetalle.ExecuteNonQuery();
-                }
-                t.Commit();
-            }
-            catch (SqlException)
-            {
-                if (t != null)
-                {
-                    t.Rollback();
-                }
-                result = false;
-            }
-            finally
-            {
-                if (cnn != null && cnn.State == System.Data.ConnectionState.Open)
-                {
-                    cnn.Close();
-                }
-            }
-            return result;
+        //        foreach (var detalle in factura.GetDetalles())
+        //        {
+        //            var cmdDetalle = new SqlCommand("SP_INSERTAR_DETALLE", cnn, t);
+        //            cmdDetalle.CommandType = System.Data.CommandType.StoredProcedure;
+        //            cmdDetalle.Parameters.AddWithValue("@nro_factura", factura.Nro);
+        //            cmdDetalle.Parameters.AddWithValue("@id_articulo", detalle.Articulo.Id);
+        //            cmdDetalle.Parameters.AddWithValue("@cantidad", detalle.Cantidad);
+        //            cmdDetalle.Parameters.AddWithValue("@precio", detalle.Precio);
+        //            cmdDetalle.Parameters.AddWithValue("@nro_factura", factura.Nro);
+        //            cmdDetalle.ExecuteNonQuery();
+        //        }
+        //        t.Commit();
+        //    }
+        //    catch (SqlException)
+        //    {
+        //        if (t != null)
+        //        {
+        //            t.Rollback();
+        //        }
+        //        result = false;
+        //    }
+        //    finally
+        //    {
+        //        if (cnn != null && cnn.State == System.Data.ConnectionState.Open)
+        //        {
+        //            cnn.Close();
+        //        }
+        //    }
+        //    return result;
 
         }
+       
+
     }
 }
