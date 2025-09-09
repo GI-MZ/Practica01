@@ -8,7 +8,7 @@ using Microsoft.Data.SqlClient;
 using Practica01.Domain;
 
 namespace Practica01.Data.Helpers
-{
+{   ////////////////////////////////////////////////////1W3- 421294 - MENDEZ GISSEL
     public class DataHelper
     {
         private static DataHelper _instance;

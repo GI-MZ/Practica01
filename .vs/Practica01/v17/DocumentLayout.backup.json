@@ -74,8 +74,7 @@
               "RelativeToolTip": "Services\\ArticuloServicio.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T15:49:34.828Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T15:49:34.828Z"
             },
             {
               "$type": "Document",
@@ -87,8 +86,7 @@
               "RelativeToolTip": "Data\\Implementations\\ArticuloRepository.cs",
               "ViewState": "AgIAADsAAAAAAAAAAADwv0gAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T15:31:05.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T15:31:05.308Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "RelativeToolTip": "Data\\Interfaces\\IArticuloRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T15:30:51.971Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T15:30:51.971Z"
             },
             {
               "$type": "Document",
@@ -113,8 +110,7 @@
               "RelativeToolTip": "Services\\FacturaService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAQwCoAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-09T15:12:01.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-09T15:12:01.678Z"
             },
             {
               "$type": "Document",
@@ -136,7 +132,7 @@
               "RelativeDocumentMoniker": "Data\\Helpers\\DataHelper.cs",
               "ToolTip": "C:\\Users\\gisse\\Programacion II\\Practica01\\Data\\Helpers\\DataHelper.cs",
               "RelativeToolTip": "Data\\Helpers\\DataHelper.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAApwIoAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-07T23:35:52.099Z",
               "EditorCaption": ""
@@ -151,8 +147,7 @@
               "RelativeToolTip": "Data\\Implementations\\FacturaRepository.cs",
               "ViewState": "AgIAADQAAAAAAAAAAAAlwD0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T23:27:35.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T23:27:35.686Z"
             },
             {
               "$type": "Document",
@@ -200,8 +195,7 @@
               "RelativeToolTip": "Domain\\DetallleFactura.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:48:17.978Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T22:48:17.978Z"
             },
             {
               "$type": "Document",
@@ -213,8 +207,7 @@
               "RelativeToolTip": "Domain\\Factura.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAqwBUAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T22:47:56.616Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T22:47:56.616Z"
             },
             {
               "$type": "Document",
@@ -226,8 +219,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAAADUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-07T18:10:23.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-07T18:10:23.649Z"
             }
           ]
         }
